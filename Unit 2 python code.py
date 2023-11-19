@@ -1,14 +1,3 @@
-Name: Run tests
-
-on:
- push:
-  branches:
-   - 'main'
-pull_requests
- branches
-  - 'main'
-
-jobs:
 def add (x,y):
     result = x+y
     print(x,"+",y,"=",result)
