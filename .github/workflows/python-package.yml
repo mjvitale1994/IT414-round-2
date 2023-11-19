@@ -15,10 +15,16 @@ steps:
   run: |
     python -m pip install --upgrade pip
     pip install -r requirements.txt
-- name: Lint with Ruff
+- name: Test with Unit 2 python code.py
   run: |
-    pip install ruff
-    ruff --output-format=github .
-  continue-on-error: true
+  result = x+y:
+    print(x,"+",y,"=",result)
+
+n1 = int(input("Enter first vairiable:"))
+n2 = int(input("Enter second variable:"))
+
+add(n1,n2)
+    
+
 
 
