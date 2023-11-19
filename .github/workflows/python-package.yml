@@ -37,4 +37,8 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest
+      
+        def add (x,y):
+        x = 1
+        y = 2
+add(x,y)
